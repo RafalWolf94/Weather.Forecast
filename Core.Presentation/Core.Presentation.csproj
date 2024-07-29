@@ -7,9 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Microsoft.AspNetCore.Routing">
-        <HintPath>..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\8.0.7\ref\net8.0\Microsoft.AspNetCore.Routing.dll</HintPath>
-      </Reference>
+        <Reference Include="Microsoft.AspNetCore.Routing">
+            <HintPath>..\..\..\.dotnet\packs\Microsoft.AspNetCore.App.Ref\8.0.7\ref\net8.0\Microsoft.AspNetCore.Routing.dll</HintPath>
+        </Reference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
 </Project>
