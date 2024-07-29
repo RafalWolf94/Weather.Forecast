@@ -26,11 +26,11 @@
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.3" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Core.Adapters.Out\Core.Adapters.Out.csproj" />
-      <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
-      <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj" />
-      <ProjectReference Include="..\Core.Presentation\Core.Presentation.csproj" />
-      <ProjectReference Include="..\Core.UseCases\Core.UseCases.csproj" />
+      <ProjectReference Include="..\Weather.Adapters.Out\Weather.Adapters.Out.csproj" />
+      <ProjectReference Include="..\Weather.Domain\Weather.Domain.csproj" />
+      <ProjectReference Include="..\Weather.Infrastructure\Weather.Infrastructure.csproj" />
+      <ProjectReference Include="..\Weather.Presentation\Weather.Presentation.csproj" />
+      <ProjectReference Include="..\Weather.UseCases\Weather.UseCases.csproj" />
     </ItemGroup>
 
 </Project>

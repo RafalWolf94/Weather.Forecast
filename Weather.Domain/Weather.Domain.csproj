@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Core.Domain</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="P3Model.Annotations" Version="0.4.0"/>
